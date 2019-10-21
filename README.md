@@ -50,44 +50,19 @@ This assignment is prepared for Lendico Coding Challange. API for Loan Repayment
 	
     docker-compose down
     
-Step 1 : On Swagger Page, you can click on Login API and choose either version to Login. 
+Step 1 : On Swagger Page, you can click on Repayment Plan API. 
 
 ![](img/step-1.png)
 
-Step 2 : Click on Try it Out button, to login and get a bearer token.
+Step 2 : Click on Try it Out button.
 
 ![](img/step-2.png)
 
-Step 3 : Enter User name as gfgadmin and Password as password and click on Execute button
+Step 3 : Enter loan request details. Default these values is populated which can be changed. And hit Execute button.
 
 ![](img/step-3.png)
 
-Step 4 : From Response header copy the bearer token.
+Step 4 : From Response you can see result of monthly payment.
 
 ![](img/step-4.png)
 
-Step 5 : Scroll up a bit and click on "Authorize" button. 
-
-![](img/step-5.png)
-
-Step 6 : In Popup window enter token as value and hit Authorize. 
-
-![](img/step-6.png)
-
-Step 7 : Click on Product API
-
-![](img/step-7.png)
-
-Step 8 : Click on API to get Product, enter values, and click on Execute.
-   * Page Number : 0
-   * Page Size   : 50
-   * Search String : Let it be blank
-   * Sort By : price.asc
-
-![](img/step-8.png)
-
-Step 9 : You can verify response.
-
-![](img/step-9.png)
-
-You can now repeat from from Step 6 to Step 9 to verify any of the other API's.
